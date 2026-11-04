@@ -7,25 +7,6 @@ const skills = [
   'Azure', 'SQL Server', 'Git & GitHub', 'CI/CD'
 ];
 
-const projects = [
-  {
-    number: '01',
-    type: 'CLOUD / DEPLOYMENT',
-    title: 'Cloud Portfolio',
-    description: 'A personal portfolio built with React and deployed using Azure Static Web Apps.',
-    tags: ['React', 'Azure', 'GitHub'],
-    link: 'https://brave-river-0f8ebb910.4.azurestaticapps.net'
-  },
-  {
-    number: '02',
-    type: 'WEB DEVELOPMENT',
-    title: 'Interactive Web Experience',
-    description: 'A modern web experience exploring responsive layouts, interactive elements and frontend design.',
-    tags: ['JavaScript', 'CSS', 'React'],
-    link: ''
-  }
-];
-
 function App() {
   const sceneRef = useRef(null);
   const [menuOpen, setMenuOpen] = useState(false);
